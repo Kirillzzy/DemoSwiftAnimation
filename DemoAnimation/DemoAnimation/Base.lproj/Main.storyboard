@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="qa3-GF-pwL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bwB-Td-Ies">
+                                <rect key="frame" x="139" y="85" width="97" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iga-oj-H4D">
+                                <rect key="frame" x="139" y="28" width="98" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beachBird" translatesAutoresizingMaskIntoConstraints="NO" id="fSx-CL-dmE">
+                                <rect key="frame" x="211" y="465" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="IzZ-PV-VgB"/>
+                                    <constraint firstAttribute="height" constant="30" id="svx-IL-DxS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beachBird" translatesAutoresizingMaskIntoConstraints="NO" id="0Iy-ln-AZo">
+                                <rect key="frame" x="180" y="503" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RO3-Mo-OJb"/>
+                                    <constraint firstAttribute="width" constant="50" id="RuZ-O0-Vy5"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beachBird" translatesAutoresizingMaskIntoConstraints="NO" id="LXc-bH-nJa">
+                                <rect key="frame" x="262" y="411" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Clh-bu-8O2"/>
+                                    <constraint firstAttribute="height" constant="30" id="QQY-Eu-atl"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud-1" translatesAutoresizingMaskIntoConstraints="NO" id="yVC-h1-pqn">
+                                <rect key="frame" x="0.0" y="20" width="131" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="dNy-4F-7fn"/>
+                                    <constraint firstAttribute="width" constant="131" id="tBq-NH-aHf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud-2" translatesAutoresizingMaskIntoConstraints="NO" id="9b9-ao-2Tt">
+                                <rect key="frame" x="244" y="85" width="115" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="P8N-Md-TVT"/>
+                                    <constraint firstAttribute="height" constant="67" id="q1O-jf-xHU"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud-3" translatesAutoresizingMaskIntoConstraints="NO" id="9m0-jk-mdH">
+                                <rect key="frame" x="15" y="160" width="74" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="g1V-Fe-MN9"/>
+                                    <constraint firstAttribute="height" constant="35" id="siZ-d0-R9V"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94y-rq-gui">
+                                <rect key="frame" x="137" y="309" width="100" height="48"/>
+                                <color key="backgroundColor" red="0.4384052693791376" green="1" blue="0.35008034323667725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Lhn-p5-6Fp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" red="0.32174089880000001" green="0.47746991280000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qa3-GF-pwL" firstAttribute="leading" secondItem="9m0-jk-mdH" secondAttribute="trailing" constant="-89" id="2pp-9R-WwN"/>
+                            <constraint firstAttribute="trailing" secondItem="qa3-GF-pwL" secondAttribute="trailing" id="41x-P1-fju"/>
+                            <constraint firstItem="9m0-jk-mdH" firstAttribute="top" secondItem="yVC-h1-pqn" secondAttribute="bottom" constant="69" id="54z-ky-oTx"/>
+                            <constraint firstItem="9b9-ao-2Tt" firstAttribute="leading" secondItem="bwB-Td-Ies" secondAttribute="trailing" constant="8" id="5Go-Lc-hWZ"/>
+                            <constraint firstItem="qa3-GF-pwL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5db-2m-gvd"/>
+                            <constraint firstItem="9b9-ao-2Tt" firstAttribute="leading" secondItem="iga-oj-H4D" secondAttribute="trailing" constant="7" id="6OU-al-OKS"/>
+                            <constraint firstItem="qa3-GF-pwL" firstAttribute="top" secondItem="iga-oj-H4D" secondAttribute="bottom" constant="-58" id="6a1-6s-HBG"/>
+                            <constraint firstItem="94y-rq-gui" firstAttribute="centerY" secondItem="qa3-GF-pwL" secondAttribute="centerY" id="7BC-KO-RmK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qa3-GF-pwL" secondAttribute="bottom" id="De7-es-eOT"/>
+                            <constraint firstItem="qa3-GF-pwL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GTj-Ag-Ifs"/>
+                            <constraint firstItem="0Iy-ln-AZo" firstAttribute="leading" secondItem="qa3-GF-pwL" secondAttribute="trailing" constant="-195" id="IqC-R5-CHO"/>
+                            <constraint firstItem="LXc-bH-nJa" firstAttribute="leading" secondItem="qa3-GF-pwL" secondAttribute="trailing" constant="-113" id="Nu7-MY-Ov1"/>
+                            <constraint firstItem="fSx-CL-dmE" firstAttribute="top" secondItem="LXc-bH-nJa" secondAttribute="bottom" constant="24" id="Piq-nc-F3b"/>
+                            <constraint firstItem="94y-rq-gui" firstAttribute="centerX" secondItem="qa3-GF-pwL" secondAttribute="centerX" id="RIf-cH-qck"/>
+                            <constraint firstItem="9b9-ao-2Tt" firstAttribute="leading" secondItem="qa3-GF-pwL" secondAttribute="trailing" constant="-131" id="Szz-gL-tdR"/>
+                            <constraint firstItem="yVC-h1-pqn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Uve-ir-fHD"/>
+                            <constraint firstItem="bwB-Td-Ies" firstAttribute="top" secondItem="iga-oj-H4D" secondAttribute="bottom" constant="27" id="Ydw-gf-zbf"/>
+                            <constraint firstItem="iga-oj-H4D" firstAttribute="leading" secondItem="yVC-h1-pqn" secondAttribute="trailing" constant="8" id="ZiC-xN-Eul"/>
+                            <constraint firstItem="LXc-bH-nJa" firstAttribute="top" secondItem="94y-rq-gui" secondAttribute="bottom" constant="54" id="jzh-rl-SNP"/>
+                            <constraint firstItem="0Iy-ln-AZo" firstAttribute="top" secondItem="fSx-CL-dmE" secondAttribute="bottom" constant="8" id="nYp-6U-zEz"/>
+                            <constraint firstItem="fSx-CL-dmE" firstAttribute="leading" secondItem="qa3-GF-pwL" secondAttribute="trailing" constant="-164" id="nt9-Et-33F"/>
+                            <constraint firstItem="qa3-GF-pwL" firstAttribute="top" secondItem="9b9-ao-2Tt" secondAttribute="bottom" constant="-152" id="w63-BV-mew"/>
+                            <constraint firstItem="qa3-GF-pwL" firstAttribute="top" secondItem="yVC-h1-pqn" secondAttribute="bottom" constant="-91" id="x9g-8X-HuK"/>
+                            <constraint firstItem="bwB-Td-Ies" firstAttribute="leading" secondItem="yVC-h1-pqn" secondAttribute="trailing" constant="8" id="zz5-IS-1tS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="birdFirstImageView" destination="LXc-bH-nJa" id="tTM-iV-B80"/>
+                        <outlet property="birdSecondImageView" destination="fSx-CL-dmE" id="VBs-6p-eTc"/>
+                        <outlet property="birdThirdImageView" destination="0Iy-ln-AZo" id="7gX-Ho-R9A"/>
+                        <outlet property="cloudFirstImageView" destination="yVC-h1-pqn" id="Pif-t2-IHg"/>
+                        <outlet property="cloudSecondImageView" destination="9b9-ao-2Tt" id="YQS-1H-ma3"/>
+                        <outlet property="cloudThirdImageView" destination="9m0-jk-mdH" id="4u7-6b-EQ3"/>
+                        <outlet property="loginButton" destination="94y-rq-gui" id="Uei-rF-Lug"/>
+                        <outlet property="loginTextField" destination="iga-oj-H4D" id="rJi-KB-kGM"/>
+                        <outlet property="passwordTextField" destination="bwB-Td-Ies" id="QYI-7x-oay"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="187" height="333"/>
+        <image name="beachBird" width="374" height="132"/>
+        <image name="cloud-1" width="159" height="50"/>
+        <image name="cloud-2" width="138" height="49"/>
+        <image name="cloud-3" width="74" height="35"/>
+    </resources>
+</document>
